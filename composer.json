@@ -1,0 +1,26 @@
+{
+    "name": "ollietroward/debug-bar",
+    "description": "PHP Debug Bar",
+    "authors": [
+        {
+            "name": "Ollie Troward",
+            "email": "ollie@ollietroward.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpspec/phpspec": "^2.5",
+        "phpspec/nyan-formatters": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Troward\\Debug\\": "src/Troward/Debug"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "spec\\Troward\\Debug\\": "spec/Troward/Debug"
+        }
+    }
+}
